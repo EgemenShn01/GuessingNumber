@@ -1,0 +1,36 @@
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+
+}
+button{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background:#e74c3c;
+    border: none;
+    box-shadow: 100px;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    transition: all;
+    animation-duration: 300ms;
+    border-style: solid;
+    border-width: medium; 
+    border: rgb(148, 27, 27);
+}
+button:disabled{
+    background-color: #f1c40f;
+}
+#statu{
+    font-size: 3em;
+    margin-top: 50px ;
+    color: black;
+}
